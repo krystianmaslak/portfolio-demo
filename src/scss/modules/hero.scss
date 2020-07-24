@@ -12,7 +12,7 @@
     text-decoration: none;
   }
   &__description {
-      text-align: center;
+    text-align: center;
   }
   &__header {
     font-size: 26px;
@@ -29,11 +29,11 @@
     height: 96px;
     border: 16px solid #f6f9fd;
     border-radius: 50%;
-    &-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+  }
+  &__image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   &__link {
     font-weight: bold;
@@ -48,6 +48,6 @@
     margin-bottom: 48px;
   }
   &__special {
-    color: $textBlue;
+    color: $Blue;
   }
 }
